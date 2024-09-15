@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import {logo} from "../../assets/index"
 
 const Footer = () => {
@@ -8,14 +9,15 @@ const Footer = () => {
       <div className="w-full h-full flex flex-col gap-8 ">
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
+          <span className="bannerIcon" data-tooltip-id="github">
+            <a target='_blank' href='https://github.com/Furqanahmed19' rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
           </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
+          <span className="bannerIcon" data-tooltip-id="linkedin">
+            <a target='_blank' href='https://www.linkedin.com/in/furqan-ahmed-a5a16b150/' rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
           </span>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -28,14 +29,15 @@ const ContactLeft = () => {
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon">
-            <FaFacebookF />
+          <span className="bannerIcon" data-tooltip-id="github">
+            <a target='_blank' href='https://github.com/Furqanahmed19' rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} />
+            </a>
           </span>
-          <span className="bannerIcon">
-            <FaTwitter />
-          </span>
-          <span className="bannerIcon">
-            <FaLinkedinIn />
+          <span className="bannerIcon" data-tooltip-id="linkedin">
+            <a target='_blank' href='https://www.linkedin.com/in/furqan-ahmed-a5a16b150/' rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faLinkedinIn} />
+            </a>
           </span>
         </div>
       </div>
