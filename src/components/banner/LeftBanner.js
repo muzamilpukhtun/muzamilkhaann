@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Professional Coder.", "Full Stack Developer.", "UI Designer."],
+      words: ["Senior DevOps Engineer.", "DevOps Engineer.", "System Administrator.","Associate Engineer (PureVPN","System Support Engineer"],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -15,7 +15,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-6xl font-bold text-white">
-          Hi, I'm <span className="text-designColor capitalize">John doe</span>
+          Hi, I'm <span className="text-designColor capitalize">Furqan Ahmed</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
           a <span>{text}</span>
@@ -26,9 +26,9 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I use animation as a third dimension by which to simplify experiences
-          and kuiding thro each and every interaction. I'm not adding motion
-          just to spruce things up, but doing it in ways that.
+        Dynamic DevOps Engineer with 6 years of comprehensive experience in IT infrastructure management and software deployment, 
+        proficient in Virtualization, Cloud, Docker, Kubernetes, Git, Ansible, Jenkins bash and terraform. Eager to contribute enthusiasm, 
+        adaptability, and a fresh perspective to a dynamic team.
         </p>
       </div>
      {/* Media */}
