@@ -6,9 +6,8 @@ import {
   faCogs,
   faNetworkWired,
   faCube,
-  faLinux
 } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook, faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faLinkedinIn,faLinux } from "@fortawesome/free-brands-svg-icons";
 import { Tooltip } from "react-tooltip";
 
 const Media = () => {
@@ -57,9 +56,9 @@ const Media = () => {
           <span className="bannerIcon" data-tooltip-id="cloud">
             <FontAwesomeIcon icon={faCloud} />
           </span>
-          <span className="bannerIcon" data-tooltip-id="linux">
-            <FontAwesomeIcon icon={faLinux} />
-          </span>
+          <span className="bannerIcon" data-tooltip-id="linux" onMouseOver={() => console.log('Linux icon hovered')}>
+          <FontAwesomeIcon icon={faLinux} />
+        </span>
         </div>
       </div>
       <Tooltip id="github" place="top" effect="solid">
