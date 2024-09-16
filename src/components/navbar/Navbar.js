@@ -10,8 +10,8 @@ const Navbar = () => {
   const [showMenu, setShowMenu]=useState(false)
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
-      <div className='border-2 border-[#2e3337] rounded-full'>
-        <img src={logo} className='w-20' alt="logo" />
+      <div className=''>
+      <span className="text-designColor capitalize text-2xl">Furqan Ahmed</span>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">

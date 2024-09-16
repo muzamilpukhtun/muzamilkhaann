@@ -7,7 +7,7 @@ const Education = () => {
     {
       title: "MS in Information Security",
       subTitle: "NED University, Karachi (Present)",
-      result: "Present",
+      result: "Completed 2024 CGPA 3.0",
       des: "Pursuing a Master’s degree focusing on advanced topics in Information Security."
     },
     {
@@ -19,13 +19,13 @@ const Education = () => {
     {
       title: "Intermediate",
       subTitle: "SSAT Degree College, Karachi (2014)",
-      result: "B Grade",
+      result: "Completed",
       des: "Completed intermediate education with a focus on pre-university subjects."
     },
     {
       title: "Matriculation",
       subTitle: "Pakistan Grammar School, Karachi (2012)",
-      result: "B Grade",
+      result: "Completed",
       des: "Completed high school education with foundational subjects."
     }
   ];

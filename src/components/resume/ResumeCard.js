@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 
-const ResumeCard = ({title,subTitle,result,des}) => {
+const ResumeCard = ({ title, subTitle, result, des,src }) => {
   return (
     <div className="w-full h-1/3 group flex">
       <div className="w-10 h-[6px] bgOpacity mt-16 relative">
@@ -19,17 +19,32 @@ const ResumeCard = ({title,subTitle,result,des}) => {
             </p>
           </div>
           <div>
-            <p className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">
-              {result}
-            </p>
+            {src ? (
+              <div className="flex justify-start items-center">
+                <img width={150} src={src} alt={title} />
+              </div>
+            ) : (
+              ""
+            )}
+            {result ? (
+              <p className="px-4 py-2 text-designColor bg-black bg-opacity-25 rounded-lg flex justify-center items-center shadow-shadowOne text-sm font-medium">
+                {result}
+              </p>
+            ) : (
+              ""
+            )}
           </div>
         </div>
-        <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
-          {des}
-        </p>
+        {des ? (
+          <p className="text-sm md:text-base font-medium text-gray-400 group-hover:text-gray-300 duration-300">
+            {des}
+          </p>
+        ) : (
+          ""
+        )}
       </div>
     </div>
   );
-}
+};
 
-export default ResumeCard
+export default ResumeCard;

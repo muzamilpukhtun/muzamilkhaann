@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import ResumeCard from "./ResumeCard";
-
+import CCNA from '../../assets/images/CCNA.jpg'
 const achievements = [
   {
     title: "Enhanced CI/CD Processes",
@@ -40,6 +40,26 @@ const achievements = [
     des: "Configured and managed VMware ESXi, Hyper-V, and various VPN technologies, showcasing strong skills in virtualization and network security."
   },
   {
+    title: 'CEH (Certified Ethical Hacker)',
+    subTitle: 'Expert in DevOps practices and technologies',
+    src: "https://cdn.prod.website-files.com/611d71e2f411757883bc9bb5/616dd9d2cbea0f25d4b95837_ceh-small.png"
+  },
+  {
+    title: 'CCNA (Certified Cisco Network Associate)',
+    subTitle: 'Expert in networking and infrastructure',
+    src: CCNA
+  },
+  {
+    title: 'Microsoft Azure Administrator Associate (Certified)',
+    subTitle: 'Proficient in Azure management',
+    src: "https://images.credly.com/images/35d18649-95c6-4c78-b07a-cfc1362318f3/azure-administrator-associate.png"
+  },
+  {
+    title: 'Microsoft Azure DevOps (Certified)',
+    subTitle: 'Expert in DevOps practices and cloud management',
+    src: "https://mdfarragher.com/wp-content/uploads/2023/03/AZ-400c-400x284.png"
+  },
+  {
     title: "Technical Support and Troubleshooting",
     subTitle: "Effective issue resolution",
     result: "Success",
@@ -50,7 +70,7 @@ const achievements = [
     subTitle: "Enhanced performance and security",
     result: "Success",
     des: "Configured and optimized various VPN servers and security measures at GADITEK, enhancing performance and security for remote access and content availability."
-  }
+  },
 ];
 
 const Achievement = () => {
@@ -58,38 +78,41 @@ const Achievement = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex flex-col lg:flex-row gap-10 lg:gap-20"
+      className="py-12 font-titleFont flex flex-col gap-10 lg:gap-20"
     >
-      <div className="flex-1">
-        <div className="flex flex-col gap-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Company Achievements</h2>
+      <div className="flex flex-col md:flex-row gap-10">
+        <div className="flex-1">
+          <div className="flex flex-col gap-4">
+            <h2 className="text-3xl md:text-4xl font-bold">Company Achievements</h2>
+          </div>
+          <div className="mt-6 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+            {achievements.slice(0, 6).map((achievement, index) => (
+              <ResumeCard
+                key={index}
+                title={achievement.title}
+                subTitle={achievement.subTitle}
+                result={achievement.result}
+                des={achievement.des}
+              />
+            ))}
+          </div>
         </div>
-        <div className="mt-6 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          {achievements.slice(0, 4).map((achievement, index) => (
-            <ResumeCard
-              key={index}
-              title={achievement.title}
-              subTitle={achievement.subTitle}
-              result={achievement.result}
-              des={achievement.des}
-            />
-          ))}
-        </div>
-      </div>
-      <div className="flex-1">
-        <div className="flex flex-col gap-4">
-          <h2 className="text-3xl md:text-4xl font-bold">Personal Achievements</h2>
-        </div>
-        <div className="mt-6 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          {achievements.slice(4, 8).map((achievement, index) => (
-            <ResumeCard
-              key={index}
-              title={achievement.title}
-              subTitle={achievement.subTitle}
-              result={achievement.result}
-              des={achievement.des}
-            />
-          ))}
+        <div className="flex-1">
+          <div className="flex flex-col gap-4">
+            <h2 className="text-3xl md:text-4xl font-bold">Personal Achievements</h2>
+          </div>
+          <div className="mt-6 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+            {achievements.slice(6, 12).map((achievement, index) => (
+              <ResumeCard
+                key={index}
+                src={achievement.src}
+                title={achievement.title}
+                subTitle={achievement.subTitle}
+                result={achievement.result}
+                des={achievement.des}
+              />
+            ))}
+          </div>
         </div>
       </div>
     </motion.div>

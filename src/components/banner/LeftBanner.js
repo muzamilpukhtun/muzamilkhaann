@@ -4,7 +4,7 @@ import Media from './Media';
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["SysOps Administration.", "DevOps Engineering.", "Site Reliability Engineering.","Infrastructure Modernization","VPN Administration "],
+      words: ["SysOps Administration.", "DevOps Engineering.", "Site Reliability Engineering.","Infrastructure Modernization Specialist","VPN Administration "],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -25,10 +25,8 @@ const LeftBanner = () => {
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base font-bodyFont leading-6 tracking-wide">
-        Dynamic DevOps Engineer with 6 years of comprehensive experience in IT infrastructure management and software deployment, 
-        proficient in Virtualization, Cloud, Docker, Kubernetes, Git, Ansible, Jenkins bash and terraform. Eager to contribute enthusiasm, 
-        adaptability, and a fresh perspective to a dynamic team.
+        <p className="text-base font-bodyFont leading-6 text-justify tracking-wide">
+        Senior DevOps Engineer with over 6+ years of extensive experience in IT infrastructure management, system administration, VPN administration and DevOps practices. Proficient in leveraging tools like Terraform for infrastructure as code, Jenkins for continuous integration and deployment, and Ansible for configuration management. Experienced with cloud platforms including AWS, Azure, and Oracle Cloud, as well as virtualization technologies like VMware ESXi, VCSA, and Proxmox. Skilled in Windows Server and Linux administration, with strong scripting abilities in Bash and Python. Seeking a challenging role to orchestrate seamless integration and deployment processes, ensure system reliability, and foster innovative solutions.
         </p>
       </div>
      {/* Media */}

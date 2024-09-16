@@ -1,27 +1,57 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCloud, faToolbox, faCogs, faNetworkWired, faCube } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { Tooltip } from 'react-tooltip';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCloud,
+  faToolbox,
+  faCogs,
+  faNetworkWired,
+  faCube,
+} from "@fortawesome/free-solid-svg-icons";
+import { faFacebook,faGithub, faLinkedinIn,faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { Tooltip } from "react-tooltip";
 
 const Media = () => {
   return (
     <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
       <div>
-        <h2 className="text-base uppercase font-titleFont mb-4">
-          Find me in
-        </h2>
+        <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-          <span className="bannerIcon" data-tooltip-id="github">
-            <a target='_blank' href='https://github.com/Furqanahmed19' rel="noopener noreferrer">
+          <a
+            target="_blank"
+            href="https://github.com/mkhurramismail91"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon" data-tooltip-id="github">
               <FontAwesomeIcon icon={faGithub} />
-            </a>
-          </span>
-          <span className="bannerIcon" data-tooltip-id="linkedin">
-            <a target='_blank' href='https://www.linkedin.com/in/furqan-ahmed-a5a16b150/' rel="noopener noreferrer">
+            </span>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.facebook.com/MKhurramIsmail/mkhurramismail91"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon" data-tooltip-id="github">
+              <FontAwesomeIcon icon={faFacebook} />
+            </span>
+          </a>
+          <a
+            target="_blank"
+            href="https://x.com/Muhamma57725922"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon" data-tooltip-id="github">
+              <FontAwesomeIcon icon={faTwitter} />
+            </span>
+          </a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/mkhurram91/"
+            rel="noopener noreferrer"
+          >
+            <span className="bannerIcon" data-tooltip-id="linkedin">
               <FontAwesomeIcon icon={faLinkedinIn} />
-            </a>
-          </span>
+            </span>
+          </a>
         </div>
       </div>
       <div>
@@ -35,7 +65,7 @@ const Media = () => {
           <span className="bannerIcon" data-tooltip-id="orchestration">
             <FontAwesomeIcon icon={faCogs} />
           </span>
-          <span className="bannerIcon" data-tooltip-id="kubernetes">
+          <span className="bannerIcon" data-tooltip-id="microservices">
             <FontAwesomeIcon icon={faCube} />
           </span>
           <span className="bannerIcon" data-tooltip-id="vpn">
@@ -58,8 +88,8 @@ const Media = () => {
       <Tooltip id="orchestration" place="top" effect="solid">
         Orchestration
       </Tooltip>
-      <Tooltip id="kubernetes" place="top" effect="solid">
-        Kubernetes
+      <Tooltip id="microservices" place="top" effect="solid">
+        Micro Services
       </Tooltip>
       <Tooltip id="vpn" place="top" effect="solid">
         VPN
