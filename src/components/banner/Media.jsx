@@ -6,7 +6,7 @@ import {
   faCogs,
   faNetworkWired,
   faCube,
-  faLinux // Add this line for Linux icon
+  faLinux
 } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { Tooltip } from "react-tooltip";
