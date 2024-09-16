@@ -4,6 +4,16 @@ import ResumeCard from "./ResumeCard";
 import CCNA from '../../assets/images/CCNA.jpg'
 const achievements = [
   {
+    title: 'CEH (Certified Ethical Hacker)',
+    subTitle: 'Expert in DevOps practices and technologies',
+    src: "https://cdn.prod.website-files.com/611d71e2f411757883bc9bb5/616dd9d2cbea0f25d4b95837_ceh-small.png"
+  },
+  {
+    title: 'CCNA (Certified Cisco Network Associate)',
+    subTitle: 'Expert in networking and infrastructure',
+    src: CCNA
+  },
+  {
     title: "Enhanced CI/CD Processes",
     subTitle: "Streamlined deployment workflows",
     result: "Success",
@@ -28,6 +38,16 @@ const achievements = [
     des: "Automated tasks using Bash and Python scripts, reducing manual effort and increasing operational efficiency in various positions."
   },
   {
+    title: 'Microsoft Azure Administrator Associate (Certified)',
+    subTitle: 'Proficient in Azure management',
+    src: "https://images.credly.com/images/35d18649-95c6-4c78-b07a-cfc1362318f3/azure-administrator-associate.png"
+  },
+  {
+    title: 'Microsoft Azure DevOps (Certified)',
+    subTitle: 'Expert in DevOps practices and cloud management',
+    src: "https://mdfarragher.com/wp-content/uploads/2023/03/AZ-400c-400x284.png"
+  },
+  {
     title: "Database Management",
     subTitle: "Ensured data integrity and availability",
     result: "Success",
@@ -38,26 +58,6 @@ const achievements = [
     subTitle: "Strong skills in virtualization and network security",
     result: "Success",
     des: "Configured and managed VMware ESXi, Hyper-V, and various VPN technologies, showcasing strong skills in virtualization and network security."
-  },
-  {
-    title: 'CEH (Certified Ethical Hacker)',
-    subTitle: 'Expert in DevOps practices and technologies',
-    src: "https://cdn.prod.website-files.com/611d71e2f411757883bc9bb5/616dd9d2cbea0f25d4b95837_ceh-small.png"
-  },
-  {
-    title: 'CCNA (Certified Cisco Network Associate)',
-    subTitle: 'Expert in networking and infrastructure',
-    src: CCNA
-  },
-  {
-    title: 'Microsoft Azure Administrator Associate (Certified)',
-    subTitle: 'Proficient in Azure management',
-    src: "https://images.credly.com/images/35d18649-95c6-4c78-b07a-cfc1362318f3/azure-administrator-associate.png"
-  },
-  {
-    title: 'Microsoft Azure DevOps (Certified)',
-    subTitle: 'Expert in DevOps practices and cloud management',
-    src: "https://mdfarragher.com/wp-content/uploads/2023/03/AZ-400c-400x284.png"
   },
   {
     title: "Technical Support and Troubleshooting",
@@ -89,6 +89,7 @@ const Achievement = () => {
             {achievements.slice(0, 6).map((achievement, index) => (
               <ResumeCard
                 key={index}
+                src={achievement.src}
                 title={achievement.title}
                 subTitle={achievement.subTitle}
                 result={achievement.result}

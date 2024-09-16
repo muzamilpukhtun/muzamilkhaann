@@ -55,6 +55,11 @@ const projects = [
       title: "CI/CD Pipeline for Java Projects on Jenkins",
       des: "Established a robust CI/CD pipeline for Java projects using Jenkins, automating builds, tests, and deployments to streamline development processes and enhance productivity.",
       src:  p1
+    },
+    {
+      title:"SIEM Log Management",
+      des:"The scope of this project was to implement a comprehensive Security Information and Event Management (SIEM) system using Wazuh. The objective was to monitor, analyze, and respond to security alerts and data across our network, servers, and Office 365 environment, ensuring a secure and well-monitored IT infrastructure.",
+      src:p2
     }
   ];
 

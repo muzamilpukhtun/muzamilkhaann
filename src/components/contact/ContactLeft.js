@@ -17,7 +17,7 @@ const ContactLeft = () => {
         Senior DevOps Engineer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        Dynamic DevOps Engineer with 6 years of experience in IT infrastructure and software deployment. Proficient in Virtualization, Cloud, Docker, Kubernetes, Git, Ansible, Jenkins, Bash, and Terraform. Ready to bring enthusiasm, adaptability, and a fresh perspective to your team.
+        Senior DevOps Engineer with 6+ years in IT infrastructure and DevOps. Proficient in Terraform, Jenkins, Ansible, and cloud platforms (AWS, Azure, Oracle). Experienced in VMware, Proxmox, Windows Server, Linux, Bash, and Python. Seeking a role to enhance integration and system reliability.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+92 3312527961</span>
