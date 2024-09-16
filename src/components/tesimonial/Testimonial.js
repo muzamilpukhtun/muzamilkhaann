@@ -40,7 +40,7 @@ const testimonials = [
   },
   {
     name: 'Vincent P.',
-    title: 'IT Infrastructure Specialist',
+    title: 'Configuration of VMware ESXI and VCSA',
     date: 'September 16, 2024',
     testimonial: 'I highly recommend Ahmed as a skilled and reliable VMware administrator. Their expertise in virtualization technologies, ability to troubleshoot complex issues, and collaborative nature make them an invaluable asset to any organization. It has been a pleasure working with Furqan, and I am confident in their ability to contribute to future projects and endeavors.',
     image: Arsalan,
