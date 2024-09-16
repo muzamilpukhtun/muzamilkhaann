@@ -83,6 +83,7 @@ function SamplePrevArrow(props) {
 }
 
 const Testimonial = () => {
+  const [dotActive, setDocActive] = useState(0);
   const settings = {
     dots: true,
     infinite: true,
