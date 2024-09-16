@@ -43,7 +43,7 @@ const testimonials = [
     title: 'Configuration of VMware ESXI and VCSA',
     date: 'September 16, 2024',
     testimonial: 'I highly recommend Ahmed as a skilled and reliable VMware administrator. Their expertise in virtualization technologies, ability to troubleshoot complex issues, and collaborative nature make them an invaluable asset to any organization. It has been a pleasure working with Furqan, and I am confident in their ability to contribute to future projects and endeavors.',
-    image: Arsalan,
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSC4YpV2Wsenk9MEeoauZ1RLX_AFbdS1EhSg&s",
     company: ' BlueMagicProxies',
     position: 'CEO',
   },

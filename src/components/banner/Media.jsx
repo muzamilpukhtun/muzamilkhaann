@@ -18,7 +18,7 @@ const Media = () => {
         <div className="flex gap-4">
           <a
             target="_blank"
-            href="https://github.com/mkhurramismail91"
+            href="https://github.com/Furqanahmed19"
             rel="noopener noreferrer"
           >
             <span className="bannerIcon" data-tooltip-id="github">
@@ -27,28 +27,10 @@ const Media = () => {
           </a>
           <a
             target="_blank"
-            href="https://www.facebook.com/MKhurramIsmail/mkhurramismail91"
+            href="https://www.linkedin.com/in/furqan-ahmed-a5a16b150/1"
             rel="noopener noreferrer"
           >
             <span className="bannerIcon" data-tooltip-id="github">
-              <FontAwesomeIcon icon={faFacebook} />
-            </span>
-          </a>
-          <a
-            target="_blank"
-            href="https://x.com/Muhamma57725922"
-            rel="noopener noreferrer"
-          >
-            <span className="bannerIcon" data-tooltip-id="github">
-              <FontAwesomeIcon icon={faTwitter} />
-            </span>
-          </a>
-          <a
-            target="_blank"
-            href="https://www.linkedin.com/in/mkhurram91/"
-            rel="noopener noreferrer"
-          >
-            <span className="bannerIcon" data-tooltip-id="linkedin">
               <FontAwesomeIcon icon={faLinkedinIn} />
             </span>
           </a>
