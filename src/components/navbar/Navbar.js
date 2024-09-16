@@ -45,9 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                Senior DevOps Engineer with 6+ years in IT infrastructure and DevOps. Proficient in Terraform, Jenkins, Ansible, and cloud platforms (AWS, Azure, Oracle). Experienced in VMware, Proxmox, Windows Server, Linux, Bash, and Python. Seeking a role to enhance integration and system reliability.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">
