@@ -1,6 +1,4 @@
-import React from 'react'
-import { BsGithub } from "react-icons/bs";
-import { FaGlobe } from "react-icons/fa";
+import React from "react";
 
 const ProjectsCard = ({ title, des, src }) => {
   return (
@@ -9,21 +7,21 @@ const ProjectsCard = ({ title, des, src }) => {
         <img
           className="w-full h-full object-cover group-hover:scale-110 duration-300 cursor-pointer"
           src={src}
-          alt={title} // Using the title for alt text
+          alt={title}
         />
       </div>
       <div className="w-full h-[40%] mt-4 flex flex-col justify-between">
-        <div>
+        <div className="flex flex-col h-full overflow-hidden custom-scrollbar">
           <h3 className="text-base uppercase text-designColor font-semibold">
             {title}
           </h3>
-          <p className="text-sm tracking-wide mt-2 text-gray-300 hover:text-gray-100 duration-300">
+          <p className="Paragraph text-sm tracking-wide mt-2 text-gray-300 hover:text-gray-100 duration-300">
             {des}
           </p>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default ProjectsCard;

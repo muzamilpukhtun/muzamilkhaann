@@ -5,6 +5,19 @@
 html{
     scroll-behavior: smooth;
 }
+
+.Paragraph{
+    overflow: auto;
+}
+  .Paragraph::-webkit-scrollbar {
+    width: 7px;
+  }
+  .Paragraph::-webkit-scrollbar-thumb {
+    width: 7px;
+    background-color: #ff014f;
+    border-radius: 10px;
+  }
+
 .slick-slide .shadow-shadowOne {
     transition: opacity 0.5s ease;
   }
