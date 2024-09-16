@@ -6,8 +6,9 @@ import {
   faCogs,
   faNetworkWired,
   faCube,
+  faLinux // Add this line for Linux icon
 } from "@fortawesome/free-solid-svg-icons";
-import { faFacebook,faGithub, faLinkedinIn,faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faGithub, faLinkedinIn, faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { Tooltip } from "react-tooltip";
 
 const Media = () => {
@@ -27,10 +28,10 @@ const Media = () => {
           </a>
           <a
             target="_blank"
-            href="https://www.linkedin.com/in/furqan-ahmed-a5a16b150/1"
+            href="https://www.linkedin.com/in/furqan-ahmed-a5a16b150/"
             rel="noopener noreferrer"
           >
-            <span className="bannerIcon" data-tooltip-id="github">
+            <span className="bannerIcon" data-tooltip-id="linkedin">
               <FontAwesomeIcon icon={faLinkedinIn} />
             </span>
           </a>
@@ -56,6 +57,9 @@ const Media = () => {
           <span className="bannerIcon" data-tooltip-id="cloud">
             <FontAwesomeIcon icon={faCloud} />
           </span>
+          <span className="bannerIcon" data-tooltip-id="linux">
+            <FontAwesomeIcon icon={faLinux} />
+          </span>
         </div>
       </div>
       <Tooltip id="github" place="top" effect="solid">
@@ -78,6 +82,9 @@ const Media = () => {
       </Tooltip>
       <Tooltip id="cloud" place="top" effect="solid">
         Cloud
+      </Tooltip>
+      <Tooltip id="linux" place="top" effect="solid">
+        Linux Administration
       </Tooltip>
     </div>
   );
