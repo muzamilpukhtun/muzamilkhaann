@@ -83,13 +83,14 @@ function SamplePrevArrow(props) {
 }
 
 const Testimonial = () => {
-  const [dotActive, setDocActive] = useState(0);
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
+    centerMode: true, // Enables centered mode
+    centerPadding: '0', // Adjust padding if necessary
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     beforeChange: (prev, next) => {

@@ -42,11 +42,11 @@ const achievements = [
     subTitle: 'Proficient in Azure management',
     src: "https://images.credly.com/images/35d18649-95c6-4c78-b07a-cfc1362318f3/azure-administrator-associate.png"
   },
-  {
-    title: 'Microsoft Azure DevOps (Certified)',
-    subTitle: 'Expert in DevOps practices and cloud management',
-    src: "https://mdfarragher.com/wp-content/uploads/2023/03/AZ-400c-400x284.png"
-  },
+    {
+      title: 'Microsoft Azure DevOps (Certified)',
+      subTitle: 'Expert in DevOps practices and cloud management',
+      src: "https://mdfarragher.com/wp-content/uploads/2023/03/AZ-400c-400x284.png"
+    },
   {
     title: "Database Management",
     subTitle: "Ensured data integrity and availability",

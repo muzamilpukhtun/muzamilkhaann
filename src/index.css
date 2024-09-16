@@ -5,6 +5,17 @@
 html{
     scroll-behavior: smooth;
 }
+.slick-slide .shadow-shadowOne {
+    transition: opacity 0.5s ease;
+  }
+  
+  .slick-slide.slick-center .shadow-shadowOne {
+    opacity: 1; /* Show shadow on the centered slide */
+  }
+  
+  .slick-slide:not(.slick-center) .shadow-shadowOne {
+    opacity: 0; /* Hide shadow on non-centered slides */
+  }
 
 @layer components{
     .bannerIcon{
