@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="w-full py-20 h-auto border-b-[1px] border-b-black grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-4 gap-8">
       <div className="w-full h-full flex flex-col gap-8 ">
-      <span className="text-designColor capitalize text-2xl">Furqan Ahmed</span>
+      <span className="text-designColor capitalize text-2xl">Muzamil Khaann</span>
         <div className="flex gap-4">
           <span className="bannerIcon" data-tooltip-id="github">
             <a target='_blank' href='https://github.com/muzamilpukhtun' rel="noopener noreferrer">
