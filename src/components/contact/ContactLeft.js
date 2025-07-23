@@ -12,7 +12,7 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Furqan Ahmed</h3>
+        <h3 className="text-3xl font-bold text-white">Muzamil Khaann</h3>
         <p className="text-lg font-normal text-gray-400">
         Web Developer (MERN Stack, .NET)
         </p>
