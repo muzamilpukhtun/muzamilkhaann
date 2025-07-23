@@ -8,7 +8,7 @@ const Education = () => {
       title: "Bachelors in Software Engineering",
       subTitle: "PMAS ARID, Rawalpindi (December 2026 Expected)",
       result: "3.1 CGPA",
-      des: "Bachelor’s degree covering various aspects of Telecommunication Engineering."
+      des: "Bachelor’s degree covering various aspects of Software Engineering."
     },
     {
       title: "Intermediate",
