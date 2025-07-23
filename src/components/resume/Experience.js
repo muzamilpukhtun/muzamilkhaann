@@ -38,11 +38,11 @@ const Experience = () => {
     >
       <div className="flex-1">
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2024 - 2025</p>
+          <p className="text-sm text-designColor tracking-[4px]">2023 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          {experienceData.slice(0, 3).map((experience, index) => (
+          {experienceData.slice(0, 2).map((experience, index) => (
             <ResumeCard
               key={index}
               title={experience.title}
@@ -59,7 +59,7 @@ const Experience = () => {
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          {experienceData.slice(3, 5).map((experience, index) => (
+          {experienceData.slice(2, 4).map((experience, index) => (
             <ResumeCard
               key={index}
               title={experience.title}
