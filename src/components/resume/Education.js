@@ -5,26 +5,20 @@ import ResumeCard from './ResumeCard';
 const Education = () => {
   const educationData = [
     {
-      title: "MS in Information Security",
-      subTitle: "NED University, Karachi (Present)",
-      result: "Completed 2024 CGPA 3.0",
-      des: "Pursuing a Master’s degree focusing on advanced topics in Information Security."
-    },
-    {
-      title: "BE in Telecommunication Engineering",
-      subTitle: "Iqra University, Karachi (December 2018)",
+      title: "Bachelors in Software Engineering",
+      subTitle: "PMAS ARID, Rawalpindi (December 2026 Expected)",
       result: "3.1 CGPA",
       des: "Bachelor’s degree covering various aspects of Telecommunication Engineering."
     },
     {
       title: "Intermediate",
-      subTitle: "SSAT Degree College, Karachi (2014)",
+      subTitle: "Islamabad Model College for Boys H9, Islamabad (2022)",
       result: "Completed",
       des: "Completed intermediate education with a focus on pre-university subjects."
     },
     {
       title: "Matriculation",
-      subTitle: "Pakistan Grammar School, Karachi (2012)",
+      subTitle: "Blue Star Public School, Rawalpindi (2020)",
       result: "Completed",
       des: "Completed high school education with foundational subjects."
     }

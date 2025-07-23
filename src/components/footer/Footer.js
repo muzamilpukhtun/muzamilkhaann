@@ -10,12 +10,12 @@ const Footer = () => {
       <span className="text-designColor capitalize text-2xl">Furqan Ahmed</span>
         <div className="flex gap-4">
           <span className="bannerIcon" data-tooltip-id="github">
-            <a target='_blank' href='https://github.com/Furqanahmed19' rel="noopener noreferrer">
+            <a target='_blank' href='https://github.com/muzamilpukhtun' rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </span>
           <span className="bannerIcon" data-tooltip-id="linkedin">
-            <a target='_blank' href='https://www.linkedin.com/in/furqan-ahmed-a5a16b150/' rel="noopener noreferrer">
+            <a target='_blank' href='https://www.linkedin.com/in/muhammadmuzamilkhan/' rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
           </span>

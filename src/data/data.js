@@ -1,35 +1,28 @@
-import { FaTools, FaCloud, FaDatabase, FaServer, FaShieldAlt } from 'react-icons/fa';
+import { FaCode, FaLaptopCode, FaCogs, FaDatabase, FaProjectDiagram } from 'react-icons/fa';
 
-// Features Data
 export const featuresData = [
   {
     id: 1,
-    icon: <FaTools />,
-    title: "Senior DevOps Engineer at DeliveryDevs",
-    des: "Troubleshooting Windows and Linux systems, networks, and servers. Installation and configuration of servers. CI/CD pipeline setup with Jenkins, GitHub Actions, Ansible, and Terraform. Automation with Bash and Python scripting. Managing Docker, Kubernetes, Zabbix, Wazuh (SIEM), and cloud services (Azure, AWS, Oracle). Deployment of applications (PHP, Laravel, Node.js, Java, React)."
+    icon: <FaLaptopCode />,
+    title: "Full Stack Developer",
+    des: "Over 2 years of experience building fast, scalable apps using React, Node.js, Express, MongoDB, and .NET/C#. Skilled in crafting responsive UIs, REST APIs, GraphQL endpoints, and full-stack solutions across web platforms."
   },
   {
     id: 2,
-    icon: <FaCloud />,
-    title: "DevOps Engineer at 360factors",
-    des: "Technical support for staff and cloud servers. CI/CD setup with Jenkins, Ansible, Terraform. Automation with Bash and Python. Docker, Kubernetes management. Monitoring with Zabbix, ELK. Security configuration and management (Apache Tomcat, Nginx, Office 365)."
+    icon: <FaDatabase />,
+    title: "Database & ORM Expertise",
+    des: "Hands-on with MongoDB, MySQL, PostgreSQL, Prisma ORM, and real-time data handling. Proficient in schema design, query optimization, and integrating cloud or local databases seamlessly."
   },
   {
     id: 3,
-    icon: <FaDatabase />,
-    title: "System Administrator at Bit-Development",
-    des: "Technical support and server management. CI/CD with Jenkins, Docker. SQL Server and MySQL database management. Cloud services (AWS) and virtualization technologies (VMware, Hyper-V). Network security and VPN configuration."
+    icon: <FaProjectDiagram />,
+    title: "Modern Web Technologies",
+    des: "Proficient in Next.js, Tailwind CSS, TypeScript, Git, GitHub, and wallet integrations. Experience with AI integrations, OCRs, and frontend tools like V0 and Spline for interactive UI experiences."
   },
   {
     id: 4,
-    icon: <FaServer />,
-    title: "Associate Engineer (PureVPN) at GADITEK",
-    des: "VPN server troubleshooting and optimization. Proxy and VPN configuration (Squid, HAProxy, OpenVPN, WireGuard). Security and monitoring (Grafana, Prometheus)."
-  },
-  {
-    id: 5,
-    icon: <FaShieldAlt />,
-    title: "System Support Engineer at GEO TV",
-    des: "Technical support and troubleshooting for various systems. Virtualization (VMware, Proxmox). Network and security management (Cisco, Pfsense, Wazuh, Pihole). Backup and disaster recovery."
+    icon: <FaCode />,
+    title: "Problem Solver & System Designer",
+    des: "Strong analytical and problem-solving mindset with a focus on clean, maintainable code. Experienced in designing scalable systems and tackling complex technical challenges with practical solutions."
   }
 ];

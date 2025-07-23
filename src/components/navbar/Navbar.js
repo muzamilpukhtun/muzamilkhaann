@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import {logo} from "../../assets/index"
+import logo from "../../assets/images/Profile.png"
 import { navLinksdata } from '../../constants';
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className=''>
-      <span className="text-designColor capitalize text-2xl">Furqan Ahmed</span>
+      <span className="text-designColor capitalize text-2xl">Muzamil Khaann</span>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
@@ -45,7 +45,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                Senior DevOps Engineer with 6+ years in IT infrastructure and DevOps. Proficient in Terraform, Jenkins, Ansible, and cloud platforms (AWS, Azure, Oracle). Experienced in VMware, Proxmox, Windows Server, Linux, Bash, and Python. Seeking a role to enhance integration and system reliability.
+                Web Developer with 2+ years of experience in MERN stack and .NET. I craft fast, scalable apps, admin panels, and dashboards using React, Node.js, C#, and SQL. Expert in both frontend and backend, with a focus on clean code, performance, and real-world problem solving.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

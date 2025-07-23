@@ -4,34 +4,28 @@ import ResumeCard from "./ResumeCard";
 
 const experienceData = [
   {
-    title: "Senior DevOps Engineer",
-    subTitle: "DeliveryDevs (July 2024 – Present)",
+    title: ".NET Developer",
+    subTitle: "Alshifa Eye Trust Hospital (July 2025 – Present)",
     result: "Pakistan",
-    des: "Troubleshooting and configuring Windows/Linux systems, networks, and servers. CI/CD setup with Jenkins, GitHub Actions, Ansible, and Terraform. Managing Docker and Kubernetes. Monitoring with Zabbix and Grafana. Security management with Wazuh. Database maintenance (PostgreSQL, MongoDB, MySQL). Cloud management (Azure, AWS, Oracle). Application deployment (PHP, Laravel, Node.js, React)."
+    des: "Built and maintained robust internal web applications using ASP.NET and C#. Integrated secure authentication, handled SQL Server databases, and implemented RESTful APIs. Collaborated on frontend improvements with React. Optimized application performance and participated in agile sprints and code reviews."
   },
   {
-    title: "DevOps Engineer",
-    subTitle: "360factors (April 2023 – July 2024)",
+    title: "WordPress Developer",
+    subTitle: "Tech Solutions Pro (March 2025 – June 2025)",
     result: "Pakistan",
-    des: "Technical support and server management. Software version control on Bitbucket. CI/CD with Jenkins, Ansible, and Terraform. Managing Docker and Kubernetes. Monitoring with Zabbix and ELK. Security management with Wazuh. Web server configuration (Apache Tomcat, Nginx). Cloud and Office 365 management."
+    des: "Developed and customized WordPress websites using Elementor and custom themes. Integrated WooCommerce for e-commerce projects and developed custom plugins. Managed domain setup, performance optimization, and client support for ongoing site updates and enhancements."
   },
   {
-    title: "System Administrator",
-    subTitle: "Bit-Development (September 2022 – April 2023)",
+    title: "MERN Stack Developer",
+    subTitle: "Digital Faaz (August 2024 – January 2025)",
     result: "Pakistan",
-    des: "Technical support and server management. CI/CD with Jenkins. Docker management. IIS server configuration. Database management (SQL Server, MySQL). AWS Cloud and Office 365 management. Network security and virtualization (VMware, Hyper-V). Firewall and VPN configuration."
+    des: "Built full-stack web applications using the MERN stack. Developed dynamic admin panels, dashboards, and REST APIs. Integrated MongoDB with Express and Node.js backend, and styled frontend interfaces using Tailwind CSS. Deployed applications on Vercel and managed version control with GitHub."
   },
   {
-    title: "Associate Engineer (PureVPN)",
-    subTitle: "GADITEK (April 2022 – August 2022)",
-    result: "Pakistan",
-    des: "Troubleshooting Linux and VPN servers. VPN configuration (OpenVPN, WireGuard, IPsec). Traffic management with HAProxy and Squid Proxy. Monitoring with Grafana and Prometheus. Automation with Bash and Ansible."
-  },
-  {
-    title: "System Support Engineer",
-    subTitle: "GEO TV (January 2019 – March 2022)",
-    result: "Pakistan",
-    des: "Technical support and server management. Virtualization (VMware, Proxmox). Network and security management. Backup and disaster recovery (Veeam). VPN and firewall configuration. IT inventory management."
+    title: "Freelance Web Developer",
+    subTitle: "Remote · Various Clients (2023 – Present)",
+    result: "Worldwide",
+    des: "Delivered responsive, scalable web apps for clients across e-commerce, education, and fintech sectors. Specialized in MERN, .NET, and WordPress stacks. Integrated Supabase, Firebase, GraphQL, and wallet/AI services. Ensured SEO-friendly, pixel-perfect UIs with responsive design and clean code. Successfully completed 15+ freelance projects with high client satisfaction."
   }
 ];
 
@@ -44,7 +38,7 @@ const Experience = () => {
     >
       <div className="flex-1">
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2022 - 2024</p>
+          <p className="text-sm text-designColor tracking-[4px]">2024 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
@@ -61,7 +55,7 @@ const Experience = () => {
       </div>
       <div className="flex-1">
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-designColor tracking-[4px]">2019 - 2022</p>
+          <p className="text-sm text-designColor tracking-[4px]">2023 - 2025</p>
           <h2 className="text-3xl md:text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-6 border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">

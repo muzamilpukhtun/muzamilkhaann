@@ -1,41 +1,41 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { contactImg } from "../../assets/index";
+import  contactImg  from "../../assets/images/Profile.png";
 
 const ContactLeft = () => {
   return (
     <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-4 lgl:p-8 rounded-lg shadow-shadowOne flex flex-col gap-8 justify-center">
       <img
-        className="w-full h-64 object-cover rounded-lg mb-2"
+        className="w-full h-72 object-contain rounded-lg mb-2"
         src={contactImg}
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
         <h3 className="text-3xl font-bold text-white">Furqan Ahmed</h3>
         <p className="text-lg font-normal text-gray-400">
-        Senior DevOps Engineer
+        Web Developer (MERN Stack, .NET)
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        Senior DevOps Engineer with 6+ years in IT infrastructure and DevOps. Proficient in Terraform, Jenkins, Ansible, and cloud platforms (AWS, Azure, Oracle). Experienced in VMware, Proxmox, Windows Server, Linux, Bash, and Python. Seeking a role to enhance integration and system reliability.
+        Web Developer with 2+ years of experience building fast, scalable applications using the MERN stack and .NET. Proficient in React, Node.js, MongoDB, C#, and SQL. Skilled in full-stack development, dynamic dashboards, and admin panels. Focused on clean code, performance, and solving real-world problems through impactful digital solutions.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Phone: <span className="text-lightText">+92 3312527961</span>
+          Phone: <span className="text-lightText">+92 3125122251</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">furqanahmed29499@gmail.com</span>
+          Email: <span className="text-lightText">muzamilkhaan24@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
           <span className="bannerIcon" data-tooltip-id="github">
-            <a target='_blank' href='https://github.com/Furqanahmed19' rel="noopener noreferrer">
+            <a target='_blank' href='https://github.com/muzamilpukhtun' rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </span>
           <span className="bannerIcon" data-tooltip-id="linkedin">
-            <a target='_blank' href='https://www.linkedin.com/in/furqan-ahmed-a5a16b150/' rel="noopener noreferrer">
+            <a target='_blank' href='https://www.linkedin.com/in/muhammadmuzamilkhan/' rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedinIn} />
             </a>
           </span>

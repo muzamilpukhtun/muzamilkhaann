@@ -4,58 +4,39 @@ import { RiStarFill } from 'react-icons/ri';
 import { HiArrowRight, HiArrowLeft } from 'react-icons/hi';
 import Title from '../layouts/Title';
 import { quote } from '../../assets';
-import Ahmer from '../../assets/images/Ahmer.jpeg';
-import Arsalan from '../../assets/images/Arsalan.jpeg';
+import zaid from '../../assets/images/zaid.png';
 import Furqan from '../../assets/images/Furqan.png';
-import Sikandar from '../../assets/images/Sikandar.jpeg';
+import C1 from '../../assets/images/C1.png';
 
 // Define your testimonials array
 const testimonials = [
   {
     name: 'Muhammad Khurram Ismail',
-    title: 'Solution Architect Expert | Team Lead',
+    title: 'React JS Developer | Three JS Developer',
     date: 'September 16, 2024',
-    testimonial: 'I had the pleasure of watching Furqan Ahmed grow from a skilled System Administrator to an accomplished DevOps Engineer. His deep understanding of IT infrastructure and operations, combined with his focus on automation and continuous integration, brought significant gains in efficiency and reliability. Furqan is a strong contributor to any team looking to embrace modern DevOps practices.',
+    testimonial: 'Muzamil demonstrated exceptional skill and professionalism in bringing our project vision to life. His expertise in web development and UX/UI was evident, and he delivered a beautifully crafted and highly functional product that exceeded expectations. Muzamil’s proactive communication, openness to feedback, and dedication to quality made collaboration seamless and rewarding. He would be a valuable asset to any team seeking top-notch development work.',
     image: Furqan,
     company: 'Techverse',
     position: 'Senior DevOps Leader',
   },
   {
-    name: 'Syed Ahmer Hasan',
-    title: 'HR Consultant & Services Specialist',
+    name: 'Furqan Ahmed',
+    title: 'React JS Developer | Three JS Developer',
     date: 'September 16, 2024',
-    testimonial: 'I had the pleasure of working closely with Furqan Ahmed as their HR Manager at 360Factors. They consistently demonstrated exceptional technical expertise in streamlining and optimizing our infrastructure, significantly improving our team’s efficiency and workflow. Furqan is collaborative, proactive, and an invaluable asset to any team. I highly recommend them for roles where technical proficiency and cultural fit are crucial.',
-    image: Ahmer,
-    company: 'Rosento Consulting Group',
-    position: 'HR Generalist at 360Factors',
+    testimonial: 'Muzamil is an outstanding developer who brought my portfolio vision to life. Their expertise in web development, graphic design, UX/UI was evident from the start. They took the time to understand my goals and translated them into a beautifully designed and fully functional portfolio website.Throughout the project, Muzamil demonstrated exceptional professionalism and attention to detail. They were proactive in communicating progress updates and open to feedback, making the collaboration seamless and enjoyable. The final product not only exceeded my expectations but also received positive feedback from my network.I highly recommend Muzamil for any project that requires creativity, technical skill, and dedication. They would be a valuable asset to any team or client looking for high-quality development work.',
+    image: C1,
+    company: 'Techverse',
+    position: 'Senior DevOps Engineer',
   },
   {
-    name: 'Arsalan Zia',
-    title: 'IT Infrastructure Specialist',
-    date: 'September 16, 2024',
-    testimonial: 'Furqan is a great asset to any team with high skills in DevOps and networks. He is one of the most talented and dedicated individuals I’ve worked with, with expertise in automating processes, optimizing cloud infrastructure, and ensuring seamless integration between development and operations.',
-    image: Arsalan,
-    company: 'Encloud DMCC ',
-    position: 'System Engineer',
-  },
-  {
-    name: 'Vincent P.',
-    title: 'Configuration of VMware ESXI and VCSA',
-    date: 'September 16, 2024',
-    testimonial: 'I highly recommend Ahmed as a skilled and reliable VMware administrator. Their expertise in virtualization technologies, ability to troubleshoot complex issues, and collaborative nature make them an invaluable asset to any organization. It has been a pleasure working with Furqan, and I am confident in their ability to contribute to future projects and endeavors.',
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwRPWpO-12m19irKlg8znjldmcZs5PO97B6A&s",
-    company: ' BlueMagicProxies',
-    position: 'CEO',
-  },
-  {
-    name: 'Sikander A.',
-    title: 'Lead Network Administrator at 360factors, Inc.',
-    date: 'September 16, 2024',
-    testimonial: 'Any task assigned to him was completed on time, and he often spent extra hours to ensure its completion. He demonstrated independence even when faced with challenging tasks, such as automating backups and load balancers. Beyond his technical skills, he is proactive in identifying new innovations and recommending improvements to our infrastructure based on the latest technologies and updates. He also goes the extra mile to secure our network by conducting penetration testing and implementing robust security measures. Furqan, I wish you a successful career.',
-    image: Sikandar,
-    company: '360factors, Inc.',
-    position: 'Lead Network Administrator',
-  },
+    name: 'Muhammad Zaid Arshad',
+    title: 'MERN Stack Developer',
+    date: 'August 10, 2024',
+    testimonial: 'I am working with Muzamil Khan, he is a passionate and very talented Developer with an eager to learn and apply new approaches.His skills as a front end developer are incredible.',
+    image: zaid,
+    company: 'Digital Faaz',
+    position: 'Senior MERN Stack Developer',
+  }
 ];
 
 function SampleNextArrow(props) {
@@ -152,11 +133,14 @@ const Testimonial = () => {
             <div key={index} className="w-full">
               <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
                 <div className="w-full lgl:w-[35%] h-full bg-gradient-to-r from-[#1e2024] to-[#23272b] p-8 rounded-lg shadow-shadowOne flex flex-col md:flex-row lgl:flex-col gap-8 justify-center md:justify-start lgl:justify-center">
-                  <img
-                    className="h-72 md:h-32 lgl:h-72 rounded-lg object-cover"
-                    src={testimonial.image}
-                    alt={testimonial.name}
-                  />
+                  <div className="flex-shrink-0 flex justify-center items-center">
+                    <img
+                      className="h-72 md:h-32 lgl:h-72 w-72 md:w-32 lgl:w-72 rounded-lg object-cover object-top"
+                      src={testimonial.image}
+                      alt={testimonial.name}
+                      style={{ objectPosition: 'top center' }}
+                    />
+                  </div>
                   <div className="w-full flex flex-col justify-end">
                     <p className="text-xs uppercase text-designColor tracking-wide mb-2">
                       {testimonial.company}
