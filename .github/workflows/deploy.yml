@@ -1,0 +1,31 @@
+name: Build and Deploy Portfolio
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Build Docker image
+        run: docker build -t ${{ secrets.DOCKERHUB_USERNAME }}/muzamilkhaann:latest .
+
+      - name: Push image to Docker Hub
+        run: docker push ${{ secrets.DOCKERHUB_USERNAME }}/muzamilkhaann:latest
+
+      - name: Deploy container locally
+        run: |
+          docker stop portfolio || true
+          docker rm portfolio || true
+          docker run -d -p 8080:80 --name portfolio ${{ secrets.DOCKERHUB_USERNAME }}/muzamilkhaann:latest
