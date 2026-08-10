@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-50 bg-bodyColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600">
       <div className=''>
-      <span className="text-designColor capitalize text-2xl">Muzamil Khaann</span>
+      <span className="text-designColor capitalize text-2xl">Muzamil Khaann The Devops Guru</span>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-6 lg:gap-10">
