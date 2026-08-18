@@ -9,7 +9,7 @@ const LeftBanner = () => {
       "MERN Stack Developer",
       ".NET Web Developer",
       "Frontend & Backend Expert",
-      "Problem Solver in Code"
+      "The On Top"
     ],
     loop: true,
     typeSpeed: 20,
